@@ -1,0 +1,20 @@
+{
+  "name": "cse341",
+  "version": "1.0.0",
+  "description": "My First Project",
+  "homepage": "https://github.com/devemmanuel1/CSE341#readme",
+  "bugs": {
+    "url": "https://github.com/devemmanuel1/CSE341/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devemmanuel1/CSE341.git"
+  },
+  "license": "ISC",
+  "author": "Emmanuel Ezechukwu",
+  "type": "commonjs",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
