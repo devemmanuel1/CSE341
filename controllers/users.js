@@ -11,8 +11,8 @@ const result = await mongodb.getDatabase().db().collection('Contacts').find();
 
 const getSingle = async (req, res, next) => {
     const userId = new ObjectId(req.params.id);
-    const result = await mongodb.getDatabase().db().collection('users').find({ _id: userId });
-    result.toArray().then(users => {
+    const result = await mongodb.getDatabase().db().collection('Contacts').find({ _id: userId });
+    result.toArray().then(Contacts => {
         res.setHeader('Content-Type', 'application/json');
         res.status(200).json(Contacts[0]);
     });
