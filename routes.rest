@@ -1,0 +1,70 @@
+# GET http://localhost:3000/users
+
+# ###get single user by ID
+# GET http://localhost:3000/users/690986cf39c7d3c9207b1348
+
+# ###create new user
+# POST http://localhost:3000/users HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "firstName": "Levi",
+#   "lastName": "Odira",
+#   "email": "leviodira@aaa.com",
+#   "favoriteColor": "Blue",
+#   "birthday": "7/25/1994"
+# }
+
+# ###update user by ID
+# PUT http://localhost:3000/users/690986cf39c7d3c9207b1348 HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "firstName": "Levi",
+#   "lastName": "Odira",
+#   "email": "leviodira@aaa.com",
+#   "favoriteColor": "Blue",
+#   "birthday": "7/25/1994"
+# }
+
+# DELETE http://localhost:3000/users/6220bcb39cd507e920c75a0b HTTP/1.1
+
+
+### Get all users
+GET http://localhost:3000/users
+
+### Get single user by ID
+GET http://localhost:3000/users/690986cf39c7d3c9207b1348
+
+### Create new user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "firstname": "Levi",
+  "lastname": "Odiram",
+  "email": "leviodira@aaa.com",
+  "favoriteColor": "Blue5",
+  "birthday": "7/25/1994",
+  "username": "leviodira",
+  "name": "Levi Odiram",
+  "ipaddress": "192.168.1.1"
+}
+
+### Update user by ID
+PUT http://localhost:3000/users/690986cf39c7d3c9207b1348
+Content-Type: application/json
+
+{
+ "firstname": "Levi",
+  "lastname": "Odiram",
+  "email": "leviodira@aaa.com",
+  "favoriteColor": "Blue5",
+  "birthday": "7/25/1994",
+  "username": "leviodira",
+  "name": "Levi Odiram",
+  "ipaddress": "192.168.1.1"
+}
+
+### Delete user by ID
+DELETE http://localhost:3000/users/6915a222854fa1f2ffd9101c
