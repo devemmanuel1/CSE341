@@ -5,9 +5,10 @@
     "description": "API documentation for CSE341 project",
     "version": "1.0.0"
   },
-  "host": "https://cse341-9a48.onrender.com/",
+  "host": "cse341-9a48.onrender.com/",
   "basePath": "/",
   "schemes": [
+    "http",
     "https"
   ],
   "paths": {
@@ -17,6 +18,16 @@
         "responses": {
           "200": {
             "description": "OK"
+          }
+        }
+      }
+    },
+    "/swagger/api-docs": {
+      "get": {
+        "description": "",
+        "responses": {
+          "default": {
+            "description": ""
           }
         }
       }
